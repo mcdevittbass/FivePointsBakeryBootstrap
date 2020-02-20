@@ -20,35 +20,32 @@
 <body> 
    
     <header>
-        <div class= "container">
-            <nav class="navbar navbar-expand-sm navbar-light sticky-top">
-                <div class="container">
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navLeft #navRight">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse justify-content-around" id="navLeft">
-                        <ul class="navbar-nav">
-                            <li class="nav-item p-4"><a class="nav-link" href="index.html">HOME</a></li>
-                            <li class="nav-item p-4"><a class="nav-link" href="about.html">ABOUT</a></li>
-                            <li class="nav-item p-4"><a class="nav-link" href="menu.html">MENU</a></li>
-                        </ul>
-                    </div>
-                        <a class="navbar-brand mx-auto" href="#">
-                            <img src="img/FINAL_LOGO.png" width="150" height="150" alt="Five Points Logo">
-                        </a>
-                    
-                    <div class="collapse navbar-collapse justify-content-around" id="navRight">        
-                         <ul class="navbar-nav">   
-                            <li class="nav-item p-4"><a class="nav-link" href="event_space.html">EVENT SPACE</a></li>
-                            <li class="nav-item p-4"><a class="nav-link" href="contact.html">CONTACT</a></li>
-                            <li class="nav-item p-4 active"><a class="nav-link" href="#">PRESS</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
-        </div>
-        
-       
+        <nav class="navbar navbar-expand-sm navbar-light sticky-top">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".multi-collapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand mx-auto d-block d-sm-none" href="#">
+                <img src="img/FINAL_LOGO.png" width="150" height="150" alt="Five Points Logo">
+            </a>
+            <div class="collapse navbar-collapse multi-collapse justify-content-around" id="navLeft">
+                <ul class="navbar-nav">
+                    <li class="nav-item p-sm-1 p-md-2 p-lg-4"><a class="nav-link" href="index.html">HOME</a></li>
+                    <li class="nav-item p-sm-1 p-md-2 p-lg-4"><a class="nav-link" href="about.html">ABOUT</a></li>
+                    <li class="nav-item p-sm-1 p-md-2 p-lg-4"><a class="nav-link" href="menu.html">MENU</a></li>
+                </ul>
+            </div>
+                <a class="navbar-brand mx-sm-auto d-none d-sm-block" href="index.html">
+                    <img src="img/FINAL_LOGO.png" width="150" height="150" alt="Five Points Logo">
+                </a>
+            
+            <div class="collapse navbar-collapse multi-collapse justify-content-around" id="navRight">        
+                    <ul class="navbar-nav">   
+                    <li class="nav-item p-sm-1 p-md-2 p-lg-4"><a class="nav-link" href="event_space.html">EVENT SPACE</a></li>
+                    <li class="nav-item p-sm-1 p-md-2 p-lg-4"><a class="nav-link" href="contact.html">CONTACT</a></li>
+                    <li class="nav-item p-sm-1 p-md-2 p-lg-4 active"><a class="nav-link" href="#">PRESS</a></li>
+                </ul>
+            </div>
+        </nav>
     </header>
 
     <div class="container">
