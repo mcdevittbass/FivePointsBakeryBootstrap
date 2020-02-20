@@ -1,0 +1,16 @@
+body {
+    background-color: black;
+}
+.navbar {
+    background-color: #f7fcfe; /* Foam */
+}
+.nav-link {
+    font-family: 'Roboto Condensed: 700', sans-serif;
+}
+.navbar-nav .nav-item .nav-link{
+    color: black;
+}
+.navbar-nav .nav-item:hover .nav-link {
+    text-decoration-line: underline;
+    color: black;
+}
