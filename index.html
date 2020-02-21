@@ -24,9 +24,10 @@
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".multi-collapse">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <a class="navbar-brand mx-auto d-block d-sm-none" href="#">
+            <a class="navbar-brand mx-auto d-flex d-sm-none" href="#">
                 <img src="img/FINAL_LOGO.png" width="150" height="150" alt="Five Points Logo">
             </a>
+
             <div class="collapse navbar-collapse multi-collapse justify-content-around" id="navLeft">
                 <ul class="navbar-nav">
                     <li class="nav-item p-sm-1 p-md-2 p-lg-4 active"><a class="nav-link" href="#">HOME</a></li>
@@ -34,12 +35,11 @@
                     <li class="nav-item p-sm-1 p-md-2 p-lg-4"><a class="nav-link" href="menu.html">MENU</a></li>
                 </ul>
             </div>
-                <a class="navbar-brand mx-sm-auto d-none d-sm-block" href="index.html">
-                    <img src="img/FINAL_LOGO.png" width="150" height="150" alt="Five Points Logo">
-                </a>
-            
-            <div class="collapse navbar-collapse multi-collapse justify-content-around" id="navRight">        
-                    <ul class="navbar-nav">   
+            <a class="navbar-brand mx-auto d-none d-sm-flex justify-content-around" href="index.html">
+                <img src="img/FINAL_LOGO.png" width="150" height="150" alt="Five Points Logo">
+            </a>
+            <div class="collapse navbar-collapse multi-collapse" id="navRight">        
+                <ul class="navbar-nav">   
                     <li class="nav-item p-sm-1 p-md-2 p-lg-4"><a class="nav-link" href="event_space.html">EVENT SPACE</a></li>
                     <li class="nav-item p-sm-1 p-md-2 p-lg-4"><a class="nav-link" href="contact.html">CONTACT</a></li>
                     <li class="nav-item p-sm-1 p-md-2 p-lg-4"><a class="nav-link" href="press.html">PRESS</a></li>
@@ -49,28 +49,58 @@
     </header>
 
     <div class="container">
-        <div class="row row-content align-items-center">
-            
+        <div class="row p-3 row-content align-items-center">
+            <img class="img-fluid" size="max-width: 100%; height: auto;" src="img/fp-gate-yeah-buf.jpg" alt="Five Points outside">
+        </div>
+        <div class="row p-3 row-content align-items-center values" style="background-color: #f7fcfe;">
+             <div class="col-4">
+                <p>Simple <br>Timeless <br>Honest <br>Balanced <br> Really Good.</p>
+             </div>
+             <div class="col paragraph">
+                <p>Five Points Bakery values the highest quality ingredients, sourced locally. Our wheat comes from an Erie County farm and we mill our flour on site. Come by and buy a loaf, have a delicious baked good or toast plate, and enjoy our beautiful old building.</p>
+             </div>
         </div>
 
-        <div class="row row-content align-items-center">
-             
-        </div>
-
-        <div class="row row-content align-items-center">
-            
+        <div class="row p-3 row-content align-items-center">
+            <div class="col text-center">
+                <p class="address"> 
+                Five Points Bakery <br>
+                44 Brayton Street <br>
+                Buffalo, NY 14213<br>
+                716.884.8888 <br><br>
+                <u>HOURS</u> <br>
+                7am to 6pm Every Day</p>
+            </div>
         </div>
        
     </div>
 
-    <footer class="site-footer">
-        
+    <footer class="site-footer p-2">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="card bg-dark text-white my-auto d-none d-md-block">
+                        <img class="card-img" id="IGBar" size="max-width: 90%; height: auto;" src="img/FPIG.png" alt="Five Points Instagram Bar">
+                        <div class="card-img-overlay d-none text-center" id="IGOverlay">
+                            <a href="https://www.instagram.com/fivepointsbakery/" target="_blank" class="card-link paragraph text-white" style="font-size: 4rem">@fivepointsbakery</a>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+            <div class="row justify-content-center">
+                <div class="col py-5 text-center">
+                    <a href="https://www.facebook.com/Five-Points-Bakery-85213183615/" target="_blank" class="mx-auto"><i class="fa fa-facebook-square fa-3x fa-inverse"></i></a>
+                    <a href="https://www.instagram.com/fivepointsbakery/" target="_blank" class="mx-auto d-md-none"><i class="fa fa-instagram fa-3x fa-inverse"></i></a>
+                </div>
+            </div>
+        </div>
     </footer>
         
     <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>        
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
 
 </body>
 
