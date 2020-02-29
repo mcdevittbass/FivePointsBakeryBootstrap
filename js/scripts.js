@@ -29,3 +29,18 @@ $(function() {
         $("#eventModal").modal("show");
     });
 });
+
+$(function() {
+    $("#menuButton").mouseover(function(){
+        $("#menuButton").css("filter", "invert(100%)");
+    });
+    $("#menuButton").mouseout(function(){
+        $("#menuButton").css("filter", "invert(0%)");
+    });
+    $("#farmButton").mouseover(function(){
+        $("#farmButton").css("filter", "invert(100%)");
+    });
+    $("#farmButton").mouseout(function(){
+        $("#farmButton").css("filter", "invert(0%)");
+    });
+});
