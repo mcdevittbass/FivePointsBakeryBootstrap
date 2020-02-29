@@ -1,17 +1,18 @@
 body {
     background-color: black;
 }
+h5 {
+    font-family: 'Roboto Condensed: 700', sans-serif;
+}
 .navbar {
     background-color: #f7fcfe; /* Foam */
 }
-.nav-link {
+.navbar-nav .nav-item .nav-link {
     font-family: 'Roboto Condensed: 700', sans-serif;
-}
-.navbar-nav .nav-item .nav-link{
     color: black;
-    text-align: center;
+    /*text-align: center;*/
 }
-.navbar-nav .nav-item:hover .nav-link {
+.navbar-nav .nav-item .nav-link:hover {
     text-decoration-line: underline;
     color: black;
 }
@@ -22,11 +23,11 @@ body {
     font-family: 'Saira Semi Condensed', sans-serif; /* change font*/
 }
 .paragraph {
+    background-color: #f7fcfe;
     color: black;
     text-align: left;
     font-size: medium;
     font-family: 'Saira Semi Condensed', sans-serif; /* change font*/
-    text-indent: 20px;
 }
 .address {
     color: #f7fcfe;
@@ -34,3 +35,22 @@ body {
     opacity: 0.75;
     font-family: 'Roboto Condensed', sans-serif;
 }
+.onblack {
+    color: #f7fcfe;
+}
+#contactCard {
+    background-color: #ffffff;
+    font-family: 'Roboto Condensed: 700', sans-serif;
+}
+.contact {
+    color: #f7fcfe;
+}
+.contact:hover {
+    text-decoration-line: underline;
+    color: #f7fcfe;
+}
+#carouselButton {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 900; }

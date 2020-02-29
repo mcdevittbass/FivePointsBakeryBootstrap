@@ -29,9 +29,9 @@
             </a>
             <div class="collapse navbar-collapse multi-collapse justify-content-around" id="navLeft">
                 <ul class="navbar-nav">
-                    <li class="nav-item p-sm-1 p-md-2 p-lg-4"><a class="nav-link" href="index.html">HOME</a></li>
-                    <li class="nav-item p-sm-1 p-md-2 p-lg-4"><a class="nav-link" href="about.html">ABOUT</a></li>
-                    <li class="nav-item p-sm-1 p-md-2 p-lg-4"><a class="nav-link" href="menu.html">MENU</a></li>
+                    <li class="nav-item p-sm-1 p-md-2 p-lg-4 mx-auto"><a class="nav-link" href="index.html">HOME</a></li>
+                    <li class="nav-item p-sm-1 p-md-2 p-lg-4 mx-auto"><a class="nav-link" href="about.html">ABOUT</a></li>
+                    <li class="nav-item p-sm-1 p-md-2 p-lg-4 mx-auto"><a class="nav-link" href="menu.html">MENU</a></li>
                 </ul>
             </div>
                 <a class="navbar-brand mx-sm-auto d-none d-sm-block" href="index.html">
@@ -40,34 +40,77 @@
             
             <div class="collapse navbar-collapse multi-collapse justify-content-around" id="navRight">        
                     <ul class="navbar-nav">   
-                    <li class="nav-item p-sm-1 p-md-2 p-lg-4"><a class="nav-link" href="event_space.html">EVENT SPACE</a></li>
-                    <li class="nav-item p-sm-1 p-md-2 p-lg-4 active"><a class="nav-link" href="contact.html">CONTACT</a></li>
-                    <li class="nav-item p-sm-1 p-md-2 p-lg-4"><a class="nav-link" href="press.html">PRESS</a></li>
+                    <li class="nav-item p-sm-1 p-md-2 p-lg-4 mx-auto"><a class="nav-link" href="event_space.html">EVENT SPACE</a></li>
+                    <li class="nav-item p-sm-1 p-md-2 p-lg-4 mx-auto active"><a class="nav-link" href="contact.html">CONTACT</a></li>
+                    <li class="nav-item p-sm-1 p-md-2 p-lg-4 mx-auto"><a class="nav-link" href="press.html">PRESS</a></li>
                 </ul>
             </div>
         </nav>
     </header>
-
-    <div class="container">
-        <div class="row row-content align-items-center">
-            
-        </div>
-
-        <div class="row row-content align-items-center">
-             
-        </div>
-
-        <div class="row row-content align-items-center">
-            
-        </div>
-       
+  
+<div class="container my-4">
+    <div class="row position-relative">
+        <img class="img-fluid mx-auto" size="max-width: 100%; height: auto;" src="img/cinnroll.jpg" alt="cinnamon roll" size="2rem">
     </div>
+      <!---------------Contact Form-------------------------------------->
+    <div class="row p-4">
+        <div class="col col-md-8 mx-auto">
+            <div class="card" id="contactCard">
+                <div class="card-header">
+                    <div class="col-12 text-center p-2">
+                        <h2>Contact Us</h2>
+                    </div>
+                    <div class="card-body">
+                        <form>
+                            <div class="form-group row align-self-center">
+                                <div class="col mx-auto">
+                                    <input type="text" class="form-control" id="name" name="name" placeholder="Name" />
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <div class="col mx-auto">
+                                    <input type="email" class="form-control" id="email" name="email" placeholder="Email" />
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <div class="col mx-auto">
+                                    <textarea class="form-control" id="message" name="message" rows="8" placeholder="Message"></textarea>
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <div class="col-md-10">
+                                    <button type="submit" class="btn" style="background-color: #59656F; color:snow">Send</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+         <!--------------- End of Contact Form-------------------------------------->
+
+<div class="row p-4 row-content align-items-center">
+    <div class="col text-center">
+        <p class="address"> 
+        Five Points Bakery <br>
+        44 Brayton Street <br>
+        Buffalo, NY 14213<br>
+        <a role="button" class="contact" href="tel:+17168848888">716.884.8888 </a><br>
+        <a role="button" class="contact" href="mailto:info@fivepointsbakery.com">info@fivepointsbakery.com</a><br /><br />
+        <u>HOURS</u> <br>
+        7am to 6pm Every Day</p>
+    </div>
+</div>
+
+</div>
 
     <footer class="site-footer">
         <div class="container">
             <div class="row">
                 <div class="col">
-                    <div class="card bg-dark text-white my-auto">
+                    <div class="card bg-dark text-white my-auto d-none">
                         <img class="card-img" id="IGBar" size="max-width: 90%; height: auto;" src="img/FPIG.png" alt="Five Points Instagram Bar">
                         <div class="card-img-overlay d-none text-center" id="IGOverlay">
                             <a href="https://www.instagram.com/fivepointsbakery/" target="_blank" class="card-link paragraph text-white" style="font-size: 5rem">@fivepointsbakery</a>
@@ -76,8 +119,9 @@
                 </div>
             </div> 
             <div class="row justify-content-center">
-                <div class="col-1 py-5 text-center">
+                <div class="col py-5 text-center">
                     <a href="https://www.facebook.com/Five-Points-Bakery-85213183615/" target="_blank" class="mx-auto"><i class="fa fa-facebook-square fa-3x fa-inverse"></i></a>
+                    <a href="https://www.instagram.com/fivepointsbakery/" target="_blank" class="mx-auto"><i class="fa fa-instagram fa-3x fa-inverse"></i></a>
                 </div>
             </div>
         </div>
