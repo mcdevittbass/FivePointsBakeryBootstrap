@@ -20,7 +20,7 @@
 <body> 
    
     <header>
-        <nav class="navbar navbar-expand-sm navbar-light sticky-top">
+        <nav class="navbar navbar-expand-sm navbar-light fixed-top">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".multi-collapse">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -28,60 +28,74 @@
                 <img src="img/FINAL_LOGO.png" width="150" height="150" alt="Five Points Logo">
             </a>
             <div class="collapse navbar-collapse multi-collapse justify-content-around" id="navLeft">
-                <ul class="navbar-nav">
-                    <li class="nav-item p-sm-1 p-md-2 p-lg-4"><a class="nav-link" href="index.html">HOME</a></li>
-                    <li class="nav-item p-sm-1 p-md-2 p-lg-4 active"><a class="nav-link" href="#">ABOUT</a></li>
-                    <li class="nav-item p-sm-1 p-md-2 p-lg-4"><a class="nav-link" href="menu.html">MENU</a></li>
+                <ul class="navbar-nav align-items-center">
+                    <li class="nav-item"><a class="nav-link" href="index.html">HOME</a></li>
+                    <li class="nav-item active"><a class="nav-link" href="#">ABOUT</a></li>
+                    <li class="nav-item"><a class="nav-link" href="event_space.html">EVENT SPACE</a></li>
                 </ul>
-            </div>
+           </div> 
+           <div class="mx-auto">
                 <a class="navbar-brand mx-sm-auto d-none d-sm-block" href="index.html">
                     <img src="img/FINAL_LOGO.png" width="150" height="150" alt="Five Points Logo">
                 </a>
-            
-            <div class="collapse navbar-collapse multi-collapse justify-content-around" id="navRight">        
-                    <ul class="navbar-nav">   
-                    <li class="nav-item p-sm-1 p-md-2 p-lg-4"><a class="nav-link" href="event_space.html">EVENT SPACE</a></li>
-                    <li class="nav-item p-sm-1 p-md-2 p-lg-4"><a class="nav-link" href="contact.html">CONTACT</a></li>
-                    <li class="nav-item p-sm-1 p-md-2 p-lg-4"><a class="nav-link" href="press.html">PRESS</a></li>
+            </div>
+            <div class="collapse navbar-collapse multi-collapse justify-content-around" id="navRight">       
+                <ul class="navbar-nav">   
+                    <li class="nav-item"><a class="nav-link" href="menu.html">    MENU    </a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">CONTACT</a></li>
+                    <li class="nav-item"><a class="nav-link" href="press.html">PRESS</a></li>
                 </ul>
             </div>
         </nav>
     </header>
 
     <div class="container">
-        <div class="row row-content align-items-center">
-            
+        <div class="row p-3 row-content align-items-center">
+            <img class="img-fluid" size="max-width: 100%; height: auto;" src="img/K+M.jpg" alt="Kevin and Melissa">
         </div>
 
         <div class="row row-content align-items-center">
-             
+             <div class="col paragraph" style="text-align: center">
+                <h1>About Five Points</h1> 
+                <p>blah blah blah stories</p>
+                <p>blah blah blah stories</p>
+                <p>blah blah blah stories</p>
+                <p>blah blah blah stories</p>
+                <p>blah blah blah stories</p>
+                <p>blah blah blah stories</p>
+             </div>
         </div>
 
-        <div class="row row-content align-items-center">
-            
+        <div class="row row-content align-items-center my-4">
+            <div class="col text-center">
+                <a role="button" id="zineButton" href="#" target="_blank">
+                    <img class="img-fluid w-25" src="img/FoundingButton.png" alt="founding story zine button"/>
+                </a>
+            </div>
         </div>
        
     </div>
         
-        <footer class="site-footer">
-            <div class="container">
-                <div class="row">
-                    <div class="col">
-                        <div class="card text-white my-auto">
-                            <img class="card-img" id="IGBar" size="max-width: 90%; height: auto;" src="img/FPIG.png" alt="Five Points Instagram Bar">
-                            <div class="card-img-overlay d-none text-center" id="IGOverlay">
-                                <a href="https://www.instagram.com/fivepointsbakery/" target="_blank" class="card-link paragraph text-white" style="font-size: 5rem">@fivepointsbakery</a>
-                            </div>
+    <footer class="site-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="card bg-dark text-white my-auto d-none">
+                        <img class="card-img" id="IGBar" size="max-width: 90%; height: auto;" src="img/FPIG.png" alt="Five Points Instagram Bar">
+                        <div class="card-img-overlay d-none text-center" id="IGOverlay">
+                            <a href="https://www.instagram.com/fivepointsbakery/" target="_blank" class="card-link paragraph text-white" style="font-size: 5rem">@fivepointsbakery</a>
                         </div>
                     </div>
-                </div> 
-                <div class="row justify-content-center">
-                    <div class="col-1 py-5 text-center">
-                        <a href="https://www.facebook.com/Five-Points-Bakery-85213183615/" target="_blank" class="mx-auto"><i class="fa fa-facebook-square fa-3x fa-inverse"></i></a>
-                    </div>
+                </div>
+            </div> 
+            <div class="row justify-content-center">
+                <div class="col py-5 text-center">
+                    <a href="https://www.facebook.com/Five-Points-Bakery-85213183615/" target="_blank" class="mx-auto"><i class="fa fa-facebook-square fa-3x fa-inverse"></i></a>
+                    <a href="https://www.instagram.com/fivepointsbakery/" target="_blank" class="mx-auto"><i class="fa fa-instagram fa-3x fa-inverse"></i></a>
                 </div>
             </div>
-        </footer>
+        </div>
+    </footer>
             
         <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
         <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>        

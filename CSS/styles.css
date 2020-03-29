@@ -4,7 +4,7 @@ body {
 h5 {
     font-family: 'Roboto Condensed: 700', sans-serif;
 }
-.navbar {
+.navbar, .logoRow {
     background-color: #f7fcfe; /* Foam */
 }
 .navbar-nav .nav-item .nav-link {
@@ -15,6 +15,10 @@ h5 {
 .navbar-nav .nav-item .nav-link:hover {
     text-decoration-line: underline;
     color: black;
+}
+.nav-item {
+    padding: 1vw;
+    flex-grow: 3;
 }
 .values {
     color: black;
@@ -55,7 +59,17 @@ h5 {
     bottom: 0;
     z-index: 900; 
 }
-/*.menuButton:hover {
-    opacity: 0.5;
+.event_card {
+    width: 32rem;
+    height: 15rem;
 }
+.cinnroll {
+    background-image: url(/img/cinnroll.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: repeat;
+    background-size: 25%;
+    background-color: black;
+   }
+
 
