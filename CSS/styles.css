@@ -16,9 +16,14 @@ h5 {
     text-decoration-line: underline;
     color: black;
 }
-.nav-item {
-    padding: 1vw;
-    flex-grow: 3;
+.nav-item, .navbar-brand {
+    width: 20%;
+    flex-grow: 1;
+    flex-basis: 0;
+    text-align: center;
+    /*border-style: solid;
+    border-width: 2px;
+    border-color: black;*/
 }
 .values {
     color: black;
