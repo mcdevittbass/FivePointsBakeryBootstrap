@@ -13,6 +13,7 @@
   },
   "author": "Megan McDevitt",
   "license": "ISC",
+  "homepage": "https://mcdevittbass.github.io/FivePointsBakery",
   "devDependencies": {
     "lite-server": "^2.3.0"
   },
@@ -21,6 +22,7 @@
     "bootstrap": "^4.0.0",
     "bootstrap-social": "^5.1.1",
     "font-awesome": "^4.7.0",
+    "gh-pages": "^2.2.0",
     "jquery": "^3.3.1",
     "popper.js": "^1.12.9"
   }

@@ -65,8 +65,8 @@ h5 {
     z-index: 900; 
 }
 .event_card {
-    width: 32rem;
-    height: 15rem;
+    max-width: 32rem;
+    max-height: 15rem;
 }
 .cinnroll {
     background-image: url(/img/cinnroll.jpg);
