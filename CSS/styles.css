@@ -1,80 +1,78 @@
+/*main background and text color for light divs*/
 body {
-    background-color: black;
-}
+  background-color: black; }
+
 h5 {
-    font-family: 'Roboto Condensed: 700', sans-serif;
-}
+  font-family: "Roboto Condensed: 700", sans-serif; }
+
 .navbar, .logoRow {
-    background-color: #f7fcfe; /* Foam */
-}
+  background-color: #f7fcfe; }
+
 .navbar-nav .nav-item .nav-link {
-    font-family: 'Roboto Condensed: 700', sans-serif;
-    color: black;
-    /*text-align: center;*/
-}
+  font-family: "Roboto Condensed: 700", sans-serif;
+  color: black;
+  /*text-align: center;*/ }
+
 .navbar-nav .nav-item .nav-link:hover {
-    text-decoration-line: underline;
-    color: black;
-}
+  text-decoration-line: underline;
+  color: black; }
+
 .nav-item, .navbar-brand {
-    width: 20%;
-    flex-grow: 1;
-    flex-basis: 0;
-    text-align: center;
-    /*border-style: solid;
+  width: 20%;
+  flex-grow: 1;
+  flex-basis: 0;
+  text-align: center;
+  /*border-style: solid;
     border-width: 2px;
-    border-color: black;*/
-}
+    border-color: black;*/ }
+
 .values {
-    color: black;
-    text-align: center;
-    font-size: large;
-    font-family: 'Saira Semi Condensed', sans-serif; /* change font*/
-}
+  color: black;
+  text-align: center;
+  font-size: large;
+  font-family: "Saira Semi Condensed", sans-serif; }
+
 .paragraph {
-    background-color: #f7fcfe;
-    color: black;
-    text-align: left;
-    font-size: medium;
-    font-family: 'Saira Semi Condensed', sans-serif; /* change font*/
-}
+  background-color: #f7fcfe;
+  color: black;
+  text-align: left;
+  font-size: medium;
+  font-family: "Saira Semi Condensed", sans-serif; }
+
 .address {
-    color: #f7fcfe;
-    font-size: medium;
-    opacity: 0.75;
-    font-family: 'Roboto Condensed', sans-serif;
-}
+  color: #f7fcfe;
+  font-size: medium;
+  opacity: 0.75;
+  font-family: 'Roboto Condensed', sans-serif; }
+
 .onblack {
-    color: #f7fcfe;
-}
+  color: #f7fcfe; }
+
 #contactCard {
-    background-color: #ffffff;
-    font-family: 'Roboto Condensed: 700', sans-serif;
-}
+  background-color: #EDEDED;
+  font-family: "Roboto Condensed: 700", sans-serif; }
+
 .contact {
-    color: #f7fcfe;
-}
+  color: #f7fcfe; }
+
 .contact:hover {
-    text-decoration-line: underline;
-    color: #f7fcfe;
-}
+  text-decoration-line: underline;
+  color: #f7fcfe; }
+
 #carouselButton {
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    z-index: 900; 
-}
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: 900; }
+
 .event_card {
-    max-width: 32rem;
-    max-height: 15rem;
-}
+  max-width: 32rem;
+  max-height: 15rem; }
+
 .cinnroll {
-    background-image: url(/img/cinnroll.jpg);
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: repeat;
-    background-size: 25%;
-    background-color: black;
-   }
-
-
+  background-image: url(/img/cinnroll.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: repeat;
+  background-size: 25%;
+  background-color: black; }

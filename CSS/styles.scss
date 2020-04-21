@@ -1,5 +1,6 @@
 $color-background: black; /*main background and text color for light divs*/
 $color-foam: #f7fcfe;
+$color-cinn: #EDEDED;
 $font-Nav: 'Roboto Condensed: 700', sans-serif;
 $font-text: 'Saira Semi Condensed', sans-serif;
 
@@ -53,7 +54,7 @@ h5 {
     color: $color-foam;
 }
 #contactCard {
-    background-color: $color-foam;
+    background-color: $color-cinn;
     font-family: $font-Nav;
 }
 .contact {
