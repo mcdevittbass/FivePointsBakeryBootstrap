@@ -14,14 +14,15 @@
     "imagemin": "imagemin img/* -o dist/img",
     "clean": "rimraf dist",
     "build": "npm run clean && npm run imagemin && npm run copyfonts && npm run usemin",
-    "usemin": "usemin contact.html -d dist --htmlmin -o dist/contact.html && usemin about.html -d dist --htmlmin -o dist/about.html && usemin index.html -d dist --htmlmin -o dist/index.html && usemin event_space.html -d dist --htmlmin -o dist/event_space.html && usemin menu.html -d dist --htmlmin -o dist/menu.html"
+    "usemin": "usemin contact.html -d dist --htmlmin -o dist/contact.html && usemin about.html -d dist --htmlmin -o dist/about.html && usemin index.html -d dist --htmlmin -o dist/index.html && usemin event_space.html -d dist --htmlmin -o dist/event_space.html && usemin menu.html -d dist --htmlmin -o dist/menu.html",
+    "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git"
   },
   "author": "Megan McDevitt",
   "license": "ISC",
-  "homepage": "https://mcdevittbass.github.io/FivePointsBakery",
+  "homepage": "https://mcdevittbass.github.io/FivePointsBakery/",
   "devDependencies": {
     "copyfiles": "^2.0.0",
     "imagemin-cli": "^3.0.0",
