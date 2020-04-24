@@ -1,5 +1,5 @@
 {
-  "name": "fivepoints",
+  "name": "FivePointsBakeryBootstrap",
   "version": "1.0.0",
   "description": "This is a website for the Five Points Bakery in Buffalo, NY",
   "main": "index.html",
@@ -22,7 +22,7 @@
   },
   "author": "Megan McDevitt",
   "license": "ISC",
-  "homepage": "https://mcdevittbass.github.io/FivePointsBakery/",
+  "homepage": "https://mcdevittbass.github.io/FivePointsBakeryBootstrap/",
   "devDependencies": {
     "copyfiles": "^2.0.0",
     "imagemin-cli": "^3.0.0",
